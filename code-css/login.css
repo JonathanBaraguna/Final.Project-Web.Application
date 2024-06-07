@@ -1,0 +1,110 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('profil-dan-background/pexels-marta-dzedyshko-1042863-2067569.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+
+.main {
+    
+    display: flex;
+    flex-direction: column; /*ini untuk agar class container dan login-container berada di 1 garis vertikal yang sama*/
+    align-items: center;
+    text-align: center; /* ini untuk membuat tulisan bookshell berada di tengah karena bookshell termasuk di kelas 
+    container*/
+    margin-top: 0px;
+    margin-bottom: 180px;
+}
+
+.sign-up {
+    position:absolute;
+    right: 0px;
+    top: 25px;
+}
+
+.sign-up button {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.main2 {
+    margin-bottom: 10px;
+    /* Jarak antara h1 dan kotak login */
+}
+
+.main2 h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(21, 8, 5);
+}
+
+.login {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.login h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.login input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    display: none;
+
+
+}
+

@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("profil-dan-background/pexels-marta-dzedyshko-1042863-2067569.jpg");
+    background-size: auto;
+}
+
+header {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    color: #fff;
+    padding: 0.6em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.navbar-brand {
+    font-size: 3em;
+    font-weight: bold;
+    padding: 0.5em 0;
+    transition: color 0.3s;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+
+.navbar-menu li {
+    margin: 0;
+}
+
+
+.navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1.2em;
+}
+
+
+.navbar-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #f4f4f4;
+}
+
+.navbar-menu a.active {
+    background-color: rgba(0, 0, 0, 0.3);/* Warna latar belakang yang berbeda untuk opsi yang di-highlight */
+    
+}
+
+
+main {
+    
+    max-width: 100%;
+    
+}
+
+section {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center; /* Set minimum height to 100% of viewport height */
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+#home {
+    background: transparent;
+    align-items: center;
+    margin-top: 60px;
+    
+    
+}
+#home h1 {
+    font-size: 70px;
+    margin-bottom: 1px; 
+    
+}
+#home h1 .judul2 {
+    text-align: center;
+}
+#home p {
+    margin-top: -50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+
+#tentang {
+    background: transparent;
+    
+}
+#tentang h2 {
+    font-size: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding:19px;
+    text-align: center; /* Mengatur teks ke tengah */
+    margin: auto;
+    border-radius: 20px;
+}
+#tentang .tentang_kami {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+#tentang .siswa {
+    text-align: center;
+}
+#tentang .siswa img {
+    width: 350px; /* Sesuaikan ukuran foto sesuai kebutuhan */
+    height: auto;
+    border-radius: 10px;
+}
+#tentang .info {
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 15px;
+}
+#tentang .info p {
+    margin: 5px 0;
+}
+
+
+#layanan {
+    background: transparent;
+
+}
+#layanan h2 {
+    font-size: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding:19px;
+    text-align: center; /* Mengatur teks ke tengah */
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 530px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
